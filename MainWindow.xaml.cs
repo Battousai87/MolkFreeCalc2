@@ -112,12 +112,12 @@ namespace MolkFreeCalc2
         private void OpBtn_sto(object sender, RoutedEventArgs e)
         {
             string op = (sender as Button).Content.ToString();
-            // cs.SetVar(op); /// \todo NYI!
+            // NYI: cs.SetVar(op);
         }
         private void OpBtn_rcl(object sender, RoutedEventArgs e)
         {
             string op = (sender as Button).Content.ToString();
-            cs.GetVar(op);
+            // NYI: cs.GetVar(op); 
         }
     }
 }

@@ -228,9 +228,9 @@ namespace MolkFreeCalc2
         /// values "STO A", "STO B" or "STO C".
         /// </summary>
         /// <param name="op"></param>
-        public void Setvar(string op)
+        public void SetVar(string op)
         {
-            // NYI!
+            // NYI: SetVar
         }
         /// <summary>
         /// Pushes the content of the var A, B or C onto the stack depending on the<br/>
@@ -240,7 +240,7 @@ namespace MolkFreeCalc2
         /// <param name="op"></param>
         public void GetVar(string op)
         {
-            // NYI!
+            // NYI: GetVar
         }
     }
 }

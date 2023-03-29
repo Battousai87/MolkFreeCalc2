@@ -11,52 +11,52 @@
         <TextBlock Name="NumberField" HorizontalAlignment="Left" Height="200" Margin="50,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="330" FontSize="30"/>
         <TextBlock Name="VarLetterField" HorizontalAlignment="Left" Height="200" Margin="390,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="34" FontSize="17"/>
         <TextBlock Name="VarField" HorizontalAlignment="Left" Height="200" Margin="415,10,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="174" FontSize="17"/>
-        <Button Name="NumBtn_chs" Content="+/−" Click="NumCHS" HorizontalAlignment="Left" Margin="10,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="0" Click="NumBtn" HorizontalAlignment="Left" Margin="90,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Name="NumBtn_comma" Content="," Click="NumComma" HorizontalAlignment="Left" Margin="170,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="1" Click="NumBtn" HorizontalAlignment="Left" Margin="10,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="2" Click="NumBtn" HorizontalAlignment="Left" Margin="90,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="3" Click="NumBtn" HorizontalAlignment="Left" Margin="170,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="4" Click="NumBtn" HorizontalAlignment="Left" Margin="10,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="5" Click="NumBtn" HorizontalAlignment="Left" Margin="90,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="6" Click="NumBtn" HorizontalAlignment="Left" Margin="170,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="7" Click="NumBtn" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="8" Click="NumBtn" HorizontalAlignment="Left" Margin="90,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEEDD" Content="9" Click="NumBtn" HorizontalAlignment="Left" Margin="170,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="+" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="−" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="×" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="÷" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="√x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="330,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="x²" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="330,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="ˣ√y" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="330,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="yˣ" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="330,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="ln x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="eˣ" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="log x" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="10ˣ" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="tan⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="cos⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="sin⁻¹" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="tan" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="cos" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="sin" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="rcl A" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="rcl B" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="rcl C" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="sto A" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="sto B" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="sto C" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="e" Click="OpBtn_nilop" HorizontalAlignment="Left" Margin="410,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="π" Click="OpBtn_nilop" HorizontalAlignment="Left" Margin="410,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Background="#FFEE00" Content="enter" Name="EnterBtn" Click="EnterBtnClick" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="235" FontSize="30"/>
-        <Button Content="CLR" Click="Clr_Btn" HorizontalAlignment="Left" Margin="250,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="CLX" Click="Clx_Btn" HorizontalAlignment="Left" Margin="330,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="x⇄y" Click="OpBtn_swap" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="x→y" Click="OpBtn_dup" HorizontalAlignment="Left" Margin="170,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="x←y" Click="OpBtn_drop" HorizontalAlignment="Left" Margin="90,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="↺" Click="OpBtn_roll" HorizontalAlignment="Left" Margin="250,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
-        <Button Content="CLST" Click="Clst_Btn" HorizontalAlignment="Left" Margin="330,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Name="NumBtn_chs" ToolTipService.ToolTip="Change the sign of the text in the entry"  Content="+/−" Click="NumCHS" HorizontalAlignment="Left" Margin="10,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 0 into the text entry" Content="0" Click="NumBtn" HorizontalAlignment="Left" Margin="90,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Name="NumBtn_comma" ToolTipService.ToolTip="Enter , into the text entry" Content="," Click="NumComma" HorizontalAlignment="Left" Margin="170,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 1 into the text entry" Content="1" Click="NumBtn" HorizontalAlignment="Left" Margin="10,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 2 into the text entry" Content="2" Click="NumBtn" HorizontalAlignment="Left" Margin="90,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 3 into the text entry" Content="3" Click="NumBtn" HorizontalAlignment="Left" Margin="170,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 4 into the text entry" Content="4" Click="NumBtn" HorizontalAlignment="Left" Margin="10,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 5 into the text entry" Content="5" Click="NumBtn" HorizontalAlignment="Left" Margin="90,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 6 into the text entry" Content="6" Click="NumBtn" HorizontalAlignment="Left" Margin="170,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 7 into the text entry" Content="7" Click="NumBtn" HorizontalAlignment="Left" Margin="10,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 8 into the text entry" Content="8" Click="NumBtn" HorizontalAlignment="Left" Margin="90,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEEDD" ToolTipService.ToolTip="Enter 9 into the text entry" Content="9" Click="NumBtn" HorizontalAlignment="Left" Margin="170,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="+" ToolTipService.ToolTip="Add X to Y and rolldown" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="−" ToolTipService.ToolTip="Subtract X from Y and rolldown" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="×" ToolTipService.ToolTip="Multiply X to Y and rolldown" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="÷" ToolTipService.ToolTip="Divide X with Y and rolldown" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="250,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="√x" ToolTipService.ToolTip="Let X become the square root of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="330,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="x²" ToolTipService.ToolTip="Let X become the square of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="330,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="ˣ√y" ToolTipService.ToolTip="Take the X:th root of Y and rolldown" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="330,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="yˣ" ToolTipService.ToolTip="Power Y by X and rolldown" Click="OpBtn_binop" HorizontalAlignment="Left" Margin="330,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="ln x" ToolTipService.ToolTip="Let X become the natural logarithm of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="eˣ" ToolTipService.ToolTip="Power e by X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="log x" ToolTipService.ToolTip="Let X become the 10 logarithm of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="10ˣ" ToolTipService.ToolTip="Power 10 by X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="410,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="tan⁻¹" ToolTipService.ToolTip="Let X become the arctangent of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="cos⁻¹" ToolTipService.ToolTip="Let X become the arccosine of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sin⁻¹" ToolTipService.ToolTip="Let X become the arcsine of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="tan" ToolTipService.ToolTip="Let X become the tangent of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="cos" ToolTipService.ToolTip="Let X become the cosine of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sin" ToolTipService.ToolTip="Let X become the sine of X" Click="OpBtn_unop" HorizontalAlignment="Left" Margin="490,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="rcl A" ToolTipService.ToolTip="Roll up and recall A into X" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,461,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="rcl B" ToolTipService.ToolTip="Roll up and recall B into X" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,411,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="rcl C" ToolTipService.ToolTip="Roll up and recall C into X" Click="OpBtn_rcl" HorizontalAlignment="Left" Margin="570,361,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sto A" ToolTipService.ToolTip="Store X in A" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,312,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sto B" ToolTipService.ToolTip="Store X in B" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="sto C" ToolTipService.ToolTip="Store X in C" Click="OpBtn_sto" HorizontalAlignment="Left" Margin="570,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="e" ToolTipService.ToolTip="Roll up and set X to e" Click="OpBtn_nilop" HorizontalAlignment="Left" Margin="410,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="π" ToolTipService.ToolTip="Roll up and set X to π" Click="OpBtn_nilop" HorizontalAlignment="Left" Margin="410,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Background="#FFEE00" ToolTipService.ToolTip="Convert the text entry to a number, and push it unto the stack" Content="enter" Name="EnterBtn" Click="EnterBtnClick" HorizontalAlignment="Left" Margin="10,261,0,0" VerticalAlignment="Top" Width="235" FontSize="30"/>
+        <Button Content="CLR" ToolTipService.ToolTip="Clear the text entry" Click="Clr_Btn" HorizontalAlignment="Left" Margin="250,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="CLX" ToolTipService.ToolTip="Clear X" Click="Clx_Btn" HorizontalAlignment="Left" Margin="330,261,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="x⇄y" ToolTipService.ToolTip="Swap X and Y" Click="OpBtn_swap" HorizontalAlignment="Left" Margin="10,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="x→y" ToolTipService.ToolTip="Duplicate X and push onto the stack" Click="OpBtn_dup" HorizontalAlignment="Left" Margin="170,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="x←y" ToolTipService.ToolTip="Pop X from the stack" Click="OpBtn_drop" HorizontalAlignment="Left" Margin="90,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="↺" ToolTipService.ToolTip="Rotate the stack up" Click="OpBtn_roll" HorizontalAlignment="Left" Margin="250,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
+        <Button Content="CLST" ToolTipService.ToolTip="Clear Y, Z and T" Click="Clst_Btn" HorizontalAlignment="Left" Margin="330,211,0,0" VerticalAlignment="Top" Width="75" FontSize="30"/>
         <TextBlock Text="Debug Output" Name="DebugTextBlock" HorizontalAlignment="Left" Height="33" Margin="10,0,0,10" TextWrapping="Wrap" VerticalAlignment="Bottom" Width="500"/>
     </Grid>
 </Window>
